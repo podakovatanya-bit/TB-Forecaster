@@ -9,13 +9,11 @@ import io
 from PIL import Image
 
 # ------------------- Конфігурація -------------------
-st.set_page_config(layout="centered")
-logo = "logo.png"
 
 # ------------------- Логотип і заголовок -------------------
 col1, col2, col3 = st.columns([1, 3, 1])
 with col2:
-    st.image(logo, width=200)
+    
     st.markdown("<h2 style='text-align: center;'>TB-Forecaster — прогнозування туберкульозу</h2>", unsafe_allow_html=True)
 
 st.markdown("""
